@@ -1,2 +1,2 @@
-# btc-indicator
-Bitcoin price indicator for Ubuntu 16.04
+# Bitcoin Price Indicator
+Work in progress!
