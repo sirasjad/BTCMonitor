@@ -1,7 +1,4 @@
-import os
-import signal
-import gi
-import webbrowser
+import os, signal, gi, webbrowser, urllib.request, json
 gi.require_version('Gtk', '3.0');
 gi.require_version('AppIndicator3', '0.1');
 from gi.repository import Gtk, AppIndicator3
@@ -16,7 +13,7 @@ class Indicator():
         self.ind = AppIndicator3.Indicator.new(self.app, iconpath, AppIndicator3.IndicatorCategory.OTHER);
         self.ind.set_status(AppIndicator3.IndicatorStatus.ACTIVE);
         self.ind.set_menu(self.create_menu());
-        self.ind.set_label('BTC: ', self.app)
+        self.ind.set_label('BTC: $' + self.price(), self.app)
 
     def create_menu(self):
         menu = Gtk.Menu();
@@ -31,6 +28,13 @@ class Indicator():
         menu.append(item_quit);
         menu.show_all();
         return menu;
+
+    def price(self):
+        api = 'https://blockchain.info/ticker';
+        with urllib.request.urlopen(api) as url:
+            data = json.loads(url.read().decode());
+            btc_usd = data['USD']['last'];
+            return str(round(btc_usd));
 
     def github(self, source):
         webbrowser.open('https://github.com/sirajuddin97/btc-indicator');
