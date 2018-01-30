@@ -1,7 +1,6 @@
 # Bitcoin Price Indicator
-This project is still in development. Use at your own risk!
+This project is still in development. Progress so far:
 
-### Progress so far:
 Indicator:
 
 ![](https://i.imgur.com/pLPlwpT.png?1)
