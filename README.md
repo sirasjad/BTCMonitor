@@ -1,8 +1,7 @@
 # Bitcoin Price Indicator
 This project is still in development. Progress so far:
 
-Indicator:
-
+Indicator:<br>
 ![](https://i.imgur.com/pLPlwpT.png?1)
 
 Dropdown:
