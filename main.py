@@ -56,4 +56,4 @@ class Indicator():
 
 Indicator();
 signal.signal(signal.SIGINT, signal.SIG_DFL);
-Gtk.main(); 
+Gtk.main();
