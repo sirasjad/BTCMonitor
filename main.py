@@ -49,7 +49,7 @@ class Indicator():
 
     def priceAlert(self, price):
         iconpath = self.currpath + '/img/btc_large.png';
-        minAlert = 9000;
+        minAlert = 8000;
         maxAlert = 11000;
 
         if(maxAlert <= price):
