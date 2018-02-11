@@ -2,12 +2,7 @@
 BTCMonitor is a real-time Bitcoin price indicator for Linux operating systems (tested on Ubuntu 16.04). The price ticker updates every minute by default (this can be customized), and alerts you with a desktop notification if the Bitcoin price rises above or falls below a certain amount. I might expand the indicator and implement other cryptocurrencies in the future.
 
 ## Preview:
-Indicator and dropdown menu:<br>
-![](https://i.imgur.com/pLPlwpT.png?1)
-![](https://i.imgur.com/m9sCl0k.png?1)
-
-Notification:<br>
-![](https://i.imgur.com/N6Xl1vt.png?1)
+![](https://i.imgur.com/4fp3rJZ.png)
 
 ## Installation:
 Install all the Python dependencies:
