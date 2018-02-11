@@ -69,7 +69,7 @@ class Indicator():
         os.system('xdg-open config.ini')
 
     def github(self, source):
-        webbrowser.open('https://github.com/sirajuddin97/btc-indicator');
+        webbrowser.open('https://github.com/sirajuddin97/BTCMonitor');
 
     def stop(self, source):
         Gtk.main_quit();

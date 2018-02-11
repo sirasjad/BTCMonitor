@@ -1,7 +1,24 @@
-# Bitcoin Price Indicator
-This project is still in development. Progress so far:
+# Bitcoin Price Monitor
+I might implement other cryptocurrencies and make them configurable in the future.
 
-Indicator:<br>
+# Installation
+```
+$ sudo apt update && sudo apt upgrade
+$ git clone git@github.com:sirajuddin97/BTCMonitor.git
+```
+
+# Run
+$ make
+
+# Preferences:
+```
+[settings]
+refresh_rate = 60 (delay in seconds between each price lookup)
+min_value = 8000 (minimum )
+max_value = 10000
+```
+
+# Preview:
 ![](https://i.imgur.com/pLPlwpT.png?1)
 
 Dropdown:<br>
