@@ -1,6 +1,5 @@
 # Bitcoin Price Monitor
-I might implement other cryptocurrencies and make them configurable in the future.
-
+BTCMonitor is a real-time Bitcoin price indicator for Linux operating systems (tested on Ubuntu 16.04). The price ticker updates every minute by default (this can be customized), and alerts you with a desktop notification if the Bitcoin price rises above or falls below a certain amount. The indicator only displays BTC for now, but I might implement other cryptocurrencies in the future.
 
 ## Preview:
 Indicator and dropdown menu:<br>
