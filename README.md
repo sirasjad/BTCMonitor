@@ -2,15 +2,17 @@
 I might implement other cryptocurrencies and make them configurable in the future.
 
 # Installation
+Install dependencies:
 ```
 $ sudo apt update && sudo apt upgrade
-$ git clone git@github.com:sirajuddin97/BTCMonitor.git
+$ git clone https://github.com/sirajuddin97/BTCMonitor
+$ cd BTCMonitor
 ```
 
 # Run
 $ make
 
-# Preferences:
+# Configuration
 ```
 [settings]
 refresh_rate = 60 (delay in seconds between each price lookup)
