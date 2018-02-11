@@ -5,13 +5,15 @@ I might implement other cryptocurrencies and make them configurable in the futur
 Install dependencies:
 ```
 $ sudo apt update && sudo apt upgrade
-[I'll list all the Python dependencies later!]
 $ git clone https://github.com/sirajuddin97/BTCMonitor
-$ cd BTCMonitor/
+[List not complete! I'll add more dependencies later...]
 ```
 
 # Run
+```
+$ cd BTCMonitor/
 $ make
+```
 
 # Configuration
 ```
