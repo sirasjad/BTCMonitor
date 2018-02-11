@@ -1,6 +1,7 @@
 # Bitcoin Price Monitor
 I might implement other cryptocurrencies and make them configurable in the future.
 
+
 ## Preview:
 ![](https://i.imgur.com/pLPlwpT.png?1)
 
