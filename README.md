@@ -3,9 +3,8 @@ I might implement other cryptocurrencies and make them configurable in the futur
 
 
 ## Preview:
+Indicator and dropdown menu:
 ![](https://i.imgur.com/pLPlwpT.png?1)
-
-Dropdown:<br>
 ![](https://i.imgur.com/m9sCl0k.png?1)
 
 Notification:<br>
