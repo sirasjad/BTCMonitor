@@ -3,14 +3,12 @@ I might implement other cryptocurrencies and make them configurable in the futur
 
 
 ## Preview:
-Indicator and dropdown menu:
+Indicator and dropdown menu:<br>
 ![](https://i.imgur.com/pLPlwpT.png?1)
 ![](https://i.imgur.com/m9sCl0k.png?1)
 
 Notification:<br>
 ![](https://i.imgur.com/N6Xl1vt.png?1)
-
-
 ## Installation:
 Install all the Python dependencies:
 ```
