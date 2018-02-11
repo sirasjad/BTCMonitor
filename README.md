@@ -27,7 +27,7 @@ $ make
 ## Configuration:
 ```
 [settings]
-refresh_rate = 60 <strong>#delay in seconds between each price lookup)</strong>
+refresh_rate = 60 **#delay in seconds between each price lookup)**
 min_value = 8000 (minimum )
 max_value = 10000
 ```
