@@ -25,8 +25,7 @@ $ make
 ```
 
 ## Configuration:
-You will find three settings in the configuration file (config.ini), where **refresh_rate** is the amount of delay in seconds between each price lookup, **min_value** is the minimum price amount and **max_value** is the maximum price amount in order to trigger the desktop notification alert. These values are measured in USD. Make sure you restart the program after updating the config file.
-
+There are three settings in the configuration file (*config.ini*), where **refresh_rate** is the amount of delay in seconds between each price lookup, **min_value** is the minimum price amount and **max_value** is the maximum price amount in order to trigger the desktop notification alert. These values are measured in USD.
 ```
 [settings]
 refresh_rate = 60
