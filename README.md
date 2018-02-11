@@ -20,14 +20,14 @@ $ git clone https://github.com/sirajuddin97/BTCMonitor
 
 ## Run:
 ```
-$ cd BTCMonitor/
+$ cd BTCMonitor
 $ make
 ```
 
 ## Configuration:
 ```
 [settings]
-refresh_rate = 60 (delay in seconds between each price lookup)
+refresh_rate = 60 <strong>#delay in seconds between each price lookup)</strong>
 min_value = 8000 (minimum )
 max_value = 10000
 ```
