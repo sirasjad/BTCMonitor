@@ -25,9 +25,11 @@ $ make
 ```
 
 ## Configuration:
+The configuration file contains three editable options, where **refresh_rate** is how the amount of delay in seconds between each price lookup, **min_value** is the minimum Bitcoin price amount and **max_value** is the maximum price amount in order to trigger the desktop notification alert. These values are measured in USD.
+
 ```
 [settings]
-refresh_rate = 60 **#delay in seconds between each price lookup)**
-min_value = 8000 (minimum )
+refresh_rate = 60
+min_value = 8000
 max_value = 10000
 ```
