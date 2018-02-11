@@ -9,6 +9,7 @@ Indicator and dropdown menu:<br>
 
 Notification:<br>
 ![](https://i.imgur.com/N6Xl1vt.png?1)
+
 ## Installation:
 Install all the Python dependencies:
 ```
