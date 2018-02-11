@@ -1,7 +1,7 @@
 # Bitcoin Price Monitor
 I might implement other cryptocurrencies and make them configurable in the future.
 
-# Installation
+## Installation:
 Install dependencies:
 ```
 $ sudo apt update && sudo apt upgrade
@@ -9,13 +9,13 @@ $ git clone https://github.com/sirajuddin97/BTCMonitor
 [List not complete! I'll add more dependencies later...]
 ```
 
-# Run
+## Run:
 ```
 $ cd BTCMonitor/
 $ make
 ```
 
-# Configuration
+## Configuration:
 ```
 [settings]
 refresh_rate = 60 (delay in seconds between each price lookup)
@@ -23,7 +23,7 @@ min_value = 8000 (minimum )
 max_value = 10000
 ```
 
-# Preview:
+## Preview:
 ![](https://i.imgur.com/pLPlwpT.png?1)
 
 Dropdown:<br>
