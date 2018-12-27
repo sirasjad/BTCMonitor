@@ -8,12 +8,7 @@ BTCMonitor is a real-time Bitcoin price indicator for Linux operating systems (t
 Install all the Python3 dependencies:
 ```
 $ sudo apt update && sudo apt upgrade
-$ git clone https://github.com/sirajuddin97/BTCMonitor
-[List is not complete! I'll add more dependencies later.]
-```
-
-## Run:
-```
+$ git clone https://github.com/sirasjad/BTCMonitor
 $ cd BTCMonitor
 $ make
 ```
