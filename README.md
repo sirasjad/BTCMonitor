@@ -5,7 +5,7 @@ BTCMonitor is a real-time Bitcoin price indicator for Linux operating systems (t
 ![](https://i.imgur.com/4fp3rJZ.png)
 
 ## Installation:
-Install all the Python3 dependencies:
+Install all the necessary Python3 dependencies and then clone this repository afterwards.
 ```
 $ sudo apt update && sudo apt upgrade
 $ git clone https://github.com/sirasjad/BTCMonitor
